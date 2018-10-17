@@ -1,0 +1,36 @@
+= Spring Trails
+:linkcss:
+:stylesheet: stylesheets/spring.css
+
+This page describes the Spring Trails project, which offers another way to discover content in Spring's documentation.
+
+== Background
+
+Spring's documentation is vast (literally thousands of pages across dozens of projects), and a single application often needs to use features from several Spring projects. For example, an application that provides secure access to data might use the Framework itself, Spring Boot, Spring Security, and Spring Data (and possibly others). To help with this problem, we have added the concept of "trails" to the documentation. A trail is a cross-cutting set of content held together by links both from this Spring Trails page and by links within the various documents. In essence, the idea is to apply aspects to documentation by creating cross-cutting sets of content within our existing documentation.
+
+== The Trails
+
+The following trails are available:
+
+* <<trails-beginner>>
+* <<trails-mvc-applications>>
+* <<trails-reactive-applications>>
+
+[[trails-beginner]]
+== The Beginner's Trail
+
+If you are new to Spring, we suggest using Spring Boot. As a result, we suggest reading the following content about the Spring Frameework itself and Spring Boot:
+
+. file://c:/spring/demo/framework/html5/core.html[Spring Core]
+. file://c:/spring/demo/boot/htmlsingle/index.html#getting-started[Spring Boot - Getting Started]
+. file://c:/spring/demo/security/html5/index.html[Spring Security]
+
+[[trails-mvc-applications]]
+==  MVC Applications
+
+[[trails-reactive-applications]]
+== Reactive Applications
+
+== Adding and Changing Trails
+
+Do you have an idea for a new trail or content that should be in an existing trail? Great. Add an issue to describe it for us or make the trail yourself and send us a pull request.
