@@ -13,6 +13,7 @@ Spring's documentation is vast (literally thousands of pages across dozens of pr
 The following trails are available:
 
 * <<trails-beginner>>
+* <<trails-rest>>
 * <<trails-mvc-applications>>
 * <<trails-reactive-applications>>
 
@@ -21,9 +22,18 @@ The following trails are available:
 
 If you are new to Spring, we suggest using Spring Boot. As a result, we suggest reading the following content about the Spring Frameework itself and Spring Boot:
 
-. file://c:/spring/demo/framework/html5/core.html[Spring Core]
-. file://c:/spring/demo/boot/htmlsingle/index.html#getting-started[Spring Boot - Getting Started]
-. file://c:/spring/demo/security/html5/index.html[Spring Security]
+. file:///Users/j/projects/demo/framework/html5/core.html[Spring Core]
+. file:///Users/j/projects/demo/boot/htmlsingle/index.html#getting-started[Spring Boot - Getting Started]
+. file:///Users/j/projects/demo/security/html5/index.html[Spring Security]
+
+[[trails-rest]]
+== REST
+
+The following guides can help you learn to use REST:
+
+. file:///Users/j/projects/demo/gs-rest-service/README.adoc[Building a RESTful Web Service]
+. file:///Users/j/projects/demo/gs-consuming-rest/README.adoc[Consuming a RESTful Web Service]
+. file:///Users/j/projects/demo/gs-rest-service-cors/README.adoc[Enabling Cross Origin Requests for a RESTful Web Service]
 
 [[trails-mvc-applications]]
 ==  MVC Applications
